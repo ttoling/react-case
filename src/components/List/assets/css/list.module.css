@@ -1,0 +1,30 @@
+.list{
+  width: 46%;
+  float: left;
+  background: white;
+  text-align: center;
+  border: 1px solid #E7E7EF;
+  box-sizing: border-box;
+  margin: 0.1rem;
+  padding-top: 0.1rem;
+}
+.list h4{
+  line-height: 0.3rem;
+  padding-left: 0.1rem;
+  min-height: 0.6rem;
+}
+.list p{
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+.list p span{
+  color:red;
+}
+.list p i{
+  float: right;
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: url("../img/mycart1.png") no-repeat center;
+  background-size: 0.3rem 0.3rem;
+}

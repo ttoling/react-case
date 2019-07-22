@@ -1,0 +1,40 @@
+.header{
+  height: 0.6rem;
+  width: 100%;
+  border-bottom: 1px solid #E7E7EF;
+  display: flex;
+  padding:0.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: #fff;
+}
+.news{
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: url("../img/news.png") no-repeat center;
+  background-size: 0.6rem 0.6rem;
+}
+.search{
+  width: 4.4rem;
+  height: 0.8rem;
+  margin: 0 0.2rem;
+}
+.search input{
+  border: 1px solid #E7E7EF;
+  height: 0.6rem;
+  width: 4.4rem;
+  border-radius: 0.3rem;
+  background: url("../img/search.png") no-repeat 3.6rem 0.05rem;
+  background-size: 0.5rem 0.5rem;
+  padding: 0.2rem;
+}
+.scan{
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: url("../img/scan.png") no-repeat center;
+  background-size: 0.6rem 0.6rem;
+}

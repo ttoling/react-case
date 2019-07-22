@@ -1,0 +1,180 @@
+.user{
+}
+.title{
+  width: 100%;
+  height: 0.8rem;
+  background: rgba(203, 203, 203, 0.13);
+}
+.title b{
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url("../img/return.png") no-repeat center;
+  background-size: 0.5rem 0.5rem;
+}
+.title img{
+  float: right;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 0.2rem;
+}
+.userdetail{
+  min-height: 2.7rem;
+  position: relative;
+}
+.user-box{
+  padding-top: 0.3rem;
+  overflow: hidden;
+}
+.user-icon{
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  float: left;
+  margin-left: 0.2rem;
+}
+.user-name{
+  float: left;
+  line-height: 0.5rem;
+  margin-left: 0.2rem;
+}
+.user-name span{
+  background: url("../img/phone.png") no-repeat left;
+  background-size: 0.3rem 0.3rem;
+  display: inline-block;
+  height: 0.5rem;
+  text-indent: 0.4rem;
+}
+.jifen{
+  height: 1rem;
+  background: rgba(200 200 200 0.5) url("../img/vip.png") no-repeat left;
+  background-size: 0.3rem 0.3rem;
+  float: right;
+  line-height: 1rem;
+  text-indent: 0.5rem;
+  margin-right: 0.1rem;
+  border-radius: 0.5rem;
+}
+.vip{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-height: 1rem;
+  background: lawngreen;
+  box-sizing: border-box;
+  padding: 0 0.1rem;
+}
+.vip p{
+  float: left;
+  line-height: 1rem;
+}
+.vip span{
+  float: right;
+  width: 1rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background: white;
+  line-height: 0.5rem;
+  text-align: center;
+  margin-top: 0.25rem;
+  color:lawngreen;
+}
+.coupon{
+  min-height: 1.2rem;
+}
+.coupon ul{
+  width: 100%;
+  min-height: 1.2rem;
+  display: flex;
+  background: rgba(203, 203, 203, 0.13);
+}
+.coupon ul li{
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0.1rem;
+  background: white;
+  height: 1rem;
+  line-height: 1rem;
+}
+.coupon ul li strong{
+  padding: 0 0.1rem;
+}
+.my-order{
+  background: white;
+}
+.my-order ul{
+  width: 6rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.my-order ul li{
+  float: left;
+  width: 25%;
+  height: 0.8rem;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+.my-order ul li i{
+  display: block;
+  width: 100%;
+  height: 0.5rem;
+  background-size:0.5rem 0.5rem;
+}
+.my-order ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.aplay i{
+  background: url("../img/news.png") no-repeat center;
+}
+.receive i{
+  background: url("../img/news.png") no-repeat center;
+}
+.assess i{
+  background: url("../img/news.png") no-repeat center;
+}
+.refund i{
+  background: url("../img/news.png") no-repeat center;
+}
+.common-use{
+  margin: 0.1rem;
+}
+.sub-title{
+  background: white;
+  line-height: 0.6rem;
+  padding: 0 0.2rem;
+}
+.goods-list{
+  background: rgba(203, 203, 203, 0.13);
+  overflow: hidden;
+}
+.title{
+  height: 0.6rem;
+  line-height: 0.6rem;
+  border-bottom: 1px solid #E7E7EF;
+  border-top: 1px solid #E7E7EF;
+  padding: 0.1rem;
+  background: white;
+  position: relative;
+}
+.title-h3{
+  display: inline-block;
+  line-height: 0.5rem;
+  margin-left: 0.2rem;
+}
+.title i{
+  display: inline-block;
+  width: 0.1rem;
+  height: 0.6rem;
+  background:lawngreen;
+  position: absolute;
+  left: 0;
+  top:0.1rem;
+}
+.title-span{
+  float: right;
+  color:lawngreen;
+}

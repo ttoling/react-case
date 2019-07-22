@@ -1,0 +1,70 @@
+.Footer{
+  height: 0.8rem;
+  width: 100%;
+  position: fixed;
+  bottom:0;
+  left: 0;
+  border-top: 1px solid #E7E7EF;
+  z-index:9999;
+  background: #fff;
+}
+.Footer ul{
+  display: flex;
+  width: 6rem;
+  margin: 0 auto;
+}
+.Footer ul li{
+  flex-grow :1;
+  height: 0.8rem;
+  text-align: center;
+}
+.Footer ul li i{
+  display: block;
+  width: 1.2rem;
+  height: 0.5rem;
+  background-size:0.5rem 0.5rem;
+}
+.Footer ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.home i{
+  background: url("../img/home.png") no-repeat center;
+}
+.classify i{
+  background: url("../img/classify.png") no-repeat center;
+}
+.find i{
+  background: url("../img/find.png") no-repeat center;
+}
+.mycart i{
+  background: url("../img/mycart.png") no-repeat center;
+}
+.user i{
+  background: url("../img/user.png") no-repeat center;
+}
+.Footer ul li .active{
+  color:#1296db;
+}
+.Footer ul li .active i{
+  display: block;
+  width: 1.2rem;
+  height: 0.5rem;
+  background-size:0.5rem 0.5rem;
+}
+.home .active i{
+  background: url("../img/home1.png") no-repeat center;
+}
+.classify .active i{
+  background: url("../img/classify1.png") no-repeat center;
+}
+.find .active i{
+  background: url("../img/find1.png") no-repeat center;
+}
+.mycart .active i{
+  background: url("../img/mycart1.png") no-repeat center;
+}
+.user .active i{
+  background: url("../img/user1.png") no-repeat center;
+}

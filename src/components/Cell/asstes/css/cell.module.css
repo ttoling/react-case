@@ -1,0 +1,57 @@
+.cell{
+  width: 100%;
+  height: 2rem;
+}
+.cell ul{
+  width: 6rem;
+  margin: 0 auto;
+}
+.cell ul li{
+  float: left;
+  width: 1.2rem;
+  height: 0.8rem;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+.cell ul li i{
+  display: block;
+  width: 1.2rem;
+  height: 0.5rem;
+  background-size:0.5rem 0.5rem;
+}
+.cell ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.fruits i{
+  background: url("../img/fruits.png") no-repeat center;
+}
+.vegetables i{
+  background: url("../img/vegetables.png") no-repeat center;
+}
+.meat i{
+  background: url("../img/meat.png") no-repeat center;
+}
+.fish i{
+  background: url("../img/fish.png") no-repeat center;
+}
+.seafood i{
+  background: url("../img/seafood.png") no-repeat center;
+}
+.snacks i{
+  background: url("../img/snacks.png") no-repeat center;
+}
+.milk i{
+  background: url("../img/milk.png") no-repeat center;
+}
+.bread i{
+  background: url("../img/bread.png") no-repeat center;
+}
+.quicklyFood i{
+  background: url("../img/quicklyFood.png") no-repeat center;
+}
+.grain i{
+  background: url("../img/grain.png") no-repeat center;
+}
+
